@@ -11,3 +11,28 @@
 body {
   background-color: #fff;
 }
+h2 {
+  color: #2c2cb9;
+}
+.navbar li {
+  background-color: white;
+  border: 2px solid black;
+  padding: 4px 12px 4px 12px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.navbar li:hover {
+  background-color: rgb(57, 105, 236);
+  color: white;
+  transition: 0.3s;
+}
+.footer li {
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: rgb(57, 105, 236);
+  transition: 0.3s;
+}
