@@ -36,3 +36,21 @@ button:hover {
   background-color: rgb(57, 105, 236);
   transition: 0.3s;
 }
+/* Dashboard section */
+
+.dashboard button {
+  background-color: rgb(11, 96, 242);
+  margin: 16px 0 16px 0;
+  width: 180px;
+  padding: 6px;
+  font-size: 24px;
+  border-radius: 8px;
+}
+.dashboard button:hover {
+  background-color: rgb(114, 201, 27);
+  transition: 0.3s;
+}
+
+.dashboard .home {
+  background-color: rgb(114, 201, 27);
+}

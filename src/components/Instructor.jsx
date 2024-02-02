@@ -17,7 +17,7 @@ const Instructor = () => {
             <img
               src={Profile1}
               alt="profile"
-              className="rounded-[100%] h-[150px] w-[150px]"
+              className="rounded-[100%] h-[150px] w-[150px] object-cover"
             />
             <h2 className="text-xl font-bold pt-2">Andrew Ng</h2>
             <h2 className="py-2">Co-founder of Coursera </h2>
@@ -32,7 +32,7 @@ const Instructor = () => {
             <img
               src={Profile2}
               alt="profile"
-              className="rounded-[100%] h-[150px] w-[150px]"
+              className="rounded-[100%] h-[150px] w-[150px] object-cover"
             />
             <h2 className="text-xl font-bold pt-2">Neil deGrasse Tyson</h2>
             <h2 className="py-2">Host of "Cosmos: A Spacetime Odyssey"</h2>
@@ -47,7 +47,7 @@ const Instructor = () => {
             <img
               src={Profile3}
               alt="profile"
-              className="rounded-[100%] h-[150px] w-[150px]"
+              className="rounded-[100%] h-[150px] w-[150px] object-cover"
             />
             <h2 className="text-xl font-bold pt-2">Wiffy dre</h2>
             <h2 className="py-2">CEO and Lead Designer </h2>

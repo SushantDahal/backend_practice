@@ -46,6 +46,7 @@ const Features = () => {
             quam perspiciatis quis.
           </h4>
         </div>
+
         {/* Skilled instructor */}
         <div className="flex flex-col justify-center items-center rounded-md bg-[#7ab6fa] p-2">
           <MdOutlineSports className="" size={40} />
