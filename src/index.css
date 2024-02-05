@@ -50,3 +50,6 @@ button:hover {
   background-color: rgb(114, 201, 27);
   transition: 0.3s;
 }
+.student h1 {
+  font-weight: 800;
+}
