@@ -53,3 +53,6 @@ button:hover {
 .student h1 {
   font-weight: 800;
 }
+::placeholder {
+  padding: 0 0 0 10px;
+}

@@ -7,8 +7,10 @@ import Footer from "./components/Footer";
 import Sidebar from "./Dashboard_Section/Sidebar";
 import Dashboard from "./Dashboard_Section/Dashboard";
 import Student from "./Dashboard_Section/Student";
+import RegisterStaff from "./Dashboard_Section/RegisterStaff";
 
 import RegisterStudent from "./Dashboard_Section/RegisterStudent";
+import RegisterCourse from "./Dashboard_Section/RegisterCourse";
 
 import Staff from "./Dashboard_Section/Staff";
 import Courses from "./Dashboard_Section/Course";
@@ -25,6 +27,8 @@ function App() {
           <Route path="/StaffSection" element={<StaffSection />} />
           <Route path="/CourseSection" element={<CourseSection />} />
           <Route path="/RegisterStdSection" element={<RegisterStd />} />
+          <Route path="/Registerstaffs" element={<Registerstaff />} />
+          <Route path="/Registercourse" element={<Registercourse />} />
         </Routes>
       </Router>
     </div>
@@ -79,6 +83,20 @@ function RegisterStd() {
   return (
     <>
       <RegisterStudent />
+    </>
+  );
+}
+function Registerstaff() {
+  return (
+    <>
+      <RegisterStaff />
+    </>
+  );
+}
+function Registercourse() {
+  return (
+    <>
+      <RegisterCourse />
     </>
   );
 }
