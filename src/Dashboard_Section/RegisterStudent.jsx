@@ -66,7 +66,7 @@ const RegisterStudent = () => {
         <div className="flex justify-center my-4">
           <Link to="/StudentSection">
             <button className="w-[160px] bg-[red] rounded-md py-2 text-center md:mt-[50px] mt-[30px] text-2xl text-white font-bold ">
-              Register
+              Register Student
             </button>
           </Link>
         </div>
