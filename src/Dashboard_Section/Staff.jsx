@@ -45,7 +45,7 @@ const Student = () => {
               <div className="relative bottom-0 left-[700px] mt-16">
                 <Link to="/Registerstaffs">
                   <button className="w-[180px] bg-[red] rounded-md py-2 text-2xl text-white font-bold ">
-                    RegisterStaff
+                    Register
                   </button>
                 </Link>
               </div>

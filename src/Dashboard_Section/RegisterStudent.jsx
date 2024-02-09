@@ -29,15 +29,16 @@ const RegisterStudent = () => {
           </div>
           <div>
             <input
-              placeholder="Parent Name"
+              placeholder="Roll No"
               type="text"
+              maxLength="3"
               className="w-[100%] p-3 outline-none rounded-md text-2xl"
             />
           </div>
           <div>
             <input
-              placeholder="Contact"
-              maxLength="13"
+              placeholder="Section"
+              maxLength="3"
               type="text"
               className="w-[100%] p-3 outline-none rounded-md text-2xl"
             />
@@ -65,7 +66,7 @@ const RegisterStudent = () => {
         </div>
         <div className="flex justify-center my-4">
           <Link to="/StudentSection">
-            <button className="w-[220px] bg-[red] rounded-md py-2 text-center md:mt-[50px] mt-[30px] text-2xl text-white font-bold ">
+            <button className="w-[240px] bg-[red] rounded-md py-2 text-center md:mt-[50px] mt-[30px] text-2xl text-white font-bold ">
               Register Student
             </button>
           </Link>
